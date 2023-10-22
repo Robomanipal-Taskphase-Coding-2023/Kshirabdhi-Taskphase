@@ -1,0 +1,9 @@
+num1=int(input("enter value of first number: "))
+num2=int(input("enter value of second number: "))
+num3=int(input("enter value of third number: "))
+if num1>num2 and num1>num3:
+    print("the maximum number is : "+num1)
+elif num2>num3 and num2>num1:
+    print("the maximum number is : ",num2)
+else :
+    print(f"The maximum number is {num3}")
